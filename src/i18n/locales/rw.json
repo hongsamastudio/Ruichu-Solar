@@ -1,0 +1,283 @@
+{
+  "nav": {
+    "home": "Ahabanza",
+    "services": "Serivisi",
+    "about": "Abo turibo",
+    "products": "Ibikoresho",
+    "advantages": "Ibyiza",
+    "contact": "Twandikire",
+    "book": "Saba inama"
+  },
+  "hero": {
+    "title": "Ingufu zisukuye ejo hazaza heza",
+    "subtitle": "Guha imbaraga abaturage binyuze mu mishinga y'ingufu zikomoka ku zuba ihendutse kandi yizewe mu Rwanda no mu karere.",
+    "cta": "Tangira ubu"
+  },
+  "landing": {
+    "products": {
+      "heading": "Ibikoresho by'ingenzi",
+      "details": "Ibisobanuro",
+      "solar_panels": {
+        "title": "Imirasire y'izuba",
+        "description": "Imirasire yo mu bwoko bwa monocrystalline ikozwe mu buryo bwo gukusanya ingufu nyinshi n'iyo izuba ryaba ridacyeye cyane."
+      },
+      "power_stations": {
+        "title": "Imashini zitanga umuriro zigendanye",
+        "description": "Zitanga umuriro mwinshi kandi zishobora gukoreshwa hanze, mu rugo cyane cyane mu gihe umuriro wagiye."
+      },
+      "storage_systems": {
+        "title": "Sisitemu zo kubika ingufu",
+        "description": "Uburyo bwizewe bwo kubika umuriro mu rugo cyangwa mu bucuruzi bukoresha bateri zigezweho."
+      }
+    },
+    "advantages": {
+      "heading": "Ibyiza by'ubufatanye natwe",
+      "direct_import": {
+        "title": "Gutumiza mu mahanga bitarushya",
+        "description": "Uburyo bwo kugeza ibikoresho ku bakiriya mu buryo bwihuse kandi ku giciro cyiza."
+      },
+      "quality": {
+        "title": "Ibikoresho byiza byizewe",
+        "description": "Ibikoresho byacu biba byageragejwe bihagije kugira ngo bikore igihe kirekire."
+      },
+      "support": {
+        "title": "Gufashwa mu Rwanda binyuze muri Rwanda Biz Hub",
+        "description": "Abakozi bacu bari mu Rwanda bazabafasha kuva mutumije ibikoresho kugeza bishyizwe mu rugo rwanyu."
+      }
+    },
+    "cta_section": {
+      "title": "Witeguye gutangira umushinga wawe?",
+      "subtitle": "Turahari muri Kigali kugira ngo tugufashe. Saba inama uyu munsi.",
+      "button": "Saba inama"
+    }
+  },
+  "services": {
+    "header": {
+      "title": "Serivisi n'Ibisobonuro mu Rwanda",
+      "subtitle": "Kuva mu ruganda kugeza hashyizwe mu rugo, Rwanda Biz Hub ifasha mu buryo bwose bwo kugeza ingufu zikomoka ku zuba mu Rwanda."
+    },
+    "engineering": {
+      "title": "Gushushanya n'Ubwubatsi",
+      "description": "Itsinda ryacu ry'enjeniyeri riri muri Kigali rishushanya sisitemu bijyanye n'aho uherereye hamwe n'ingufu ukeneye.",
+      "features": [
+        "Isuzuma ry'aho umushinga uzashyirwa",
+        "Gukora igishushanyo mbonera cya sisitemu",
+        "Guhitamo ibikoresho byujuje ubuziranenge",
+        "Gupima ingufu zuzuye"
+      ]
+    },
+    "installation": {
+      "title": "Gushyira mu bikorwa (Installation)",
+      "description": "Abakozi bacu b'inzobere bashyira mu bikorwa umushinga wawe hitawe ku mutekano no gukora neza kw'ibikoresho.",
+      "features": [
+        "Itsinda ry'inzobere rikorera mu Rwanda",
+        "Gupima umutekano w'insinga n'intsinga",
+        "Gukora mu buryo budahindagurika",
+        "Inyigisho ku mikoreshereze ya sisitemu"
+      ]
+    },
+    "support": {
+      "title": "Gukurikirana n'Ubufasha (Support)",
+      "description": "Ntabwo tugarukira ku gushyira mu bikorwa gusa. Rwanda Biz Hub itanga ubufasha bwuzuye nyuma y'uko umushinga urangiye.",
+      "features": [
+        "Serivisi yo gusana ibikoresho muri Kigali",
+        "Gukurikirana imikorere ya sisitemu",
+        "Ubufasha kuri terefone mu masaha y'akazi",
+        "Gusimbuza ibikoresho byangiritse (Warranty)"
+      ]
+    },
+    "biz_hub": {
+      "title": "Ibyiza bya Rwanda Biz Hub",
+      "description": "Turahuza ikoranabuhanga ryo mu Bushinwa n'ubumenyi bw'abakozi b'Abanyarwanda kugira ngo tuguhe serivisi nziza.",
+      "tags": {
+        "local": "Abakozi b'inzobere mu Rwanda",
+        "direct": "Kuva mu ruganda kugeza ku mukiriya",
+        "tech": "Ikoranabuhanga rigezweho"
+      }
+    },
+    "cta": {
+      "title": "Witeguye gutangira umushinga wawe?",
+      "description": "Vugana n'enjeniyeri bacu bari muri Kigali uyu munsi kugira ngo tugufashe gushushanya sisitemu yawe.",
+      "button": "Saba inama"
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "Twandikire Ruichu Solar Rwanda",
+      "subtitle": "Ufite umushinga ushaka gutangira cyangwa ukeneye inama z'ubumenyi? Itsinda ryacu muri Kigali ryiteguye kugufasha."
+    },
+    "details": {
+      "title": "Uko watubona",
+      "kigali_office": {
+        "title": "Ibiro byacu muri Kigali",
+        "address": "KABC KN5, Kigali, Rwanda"
+      },
+      "email": {
+        "title": "Email"
+      },
+      "call": {
+        "title": "Terefone"
+      },
+      "hours": {
+        "title": "Amasaha y'akazi",
+        "value": "Kuwa mbere - Kuwa gatanu, 8:00 AM - 5:00 PM"
+      }
+    },
+    "experts": {
+      "title": "Hura n'inzobere zacu",
+      "description": "Twemera ubufatanye bwa hafi. Abakozi bacu muri Kigali barahari kugira ngo bagufashe muri byose bifitanye isano n'umushinga wawe."
+    },
+    "form": {
+      "title": "Tyoherereze ubutumwa",
+      "labels": {
+        "name": "Amazina yose",
+        "email": "Email",
+        "subject": "Intego",
+        "message": "Ubutumwa"
+      },
+      "placeholders": {
+        "name": "Amazina yawe",
+        "email": "email@example.com",
+        "message": "Twagufasha iki?"
+      },
+      "subjects": {
+        "general": "Ibibazo rusange",
+        "quote": "Gusaba igiciro",
+        "support": "Ubufasha mu by'ubumenyi",
+        "partnership": "Ubufatanye mu bucuruzi"
+      },
+      "checkbox": "Saba igiciro cyangwa inama muri Kigali",
+      "button": "Ohereza ubutumwa / Saba inama"
+    },
+    "map": {
+      "title": "Sura ibiro byacu muri Kigali",
+      "description": "Ibiro byacu biherereye mu mujyi rwagati wa Kigali. Urashobora kudusura mu masaha y'akazi."
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Gufasha u Rwanda binyuze mu guhanga udushya",
+      "subtitle": "Twiyemeje kwihutisha ikoreshwa ry'ingufu zisukuye binyuze mu buryo bwizewe kandi bugezweho."
+    },
+    "heritage": {
+      "title": "Umuyobozi ku rwego rw'isi mu kubika ingufu",
+      "p1": "Ruichu Solar Rwanda ni umufatanyabikorwa wa Shaoxing Ruichu Technology Co., Ltd., uruganda rukora ibikoresho byo kubika ingufu ku rwego rw'isi.",
+      "p2": "Twubatse uburyo bwo gukora ibikoresho bihuye n'ibyo abantu bakeneye, duhereye ku bunararibonye bwacu bwo mu Burayi, Amerika, Aziya n'Afurika."
+    },
+    "quality": {
+      "title": "Guhanga udushya n'ubuziranenge buhambaye",
+      "p1": "Udushya ni ishingiro ry'ibikoresho byacu. Dufite itsinda ry'inzobere rihora rishaka uburyo bwo kuvugurura ikoranabuhanga.",
+      "cert1": "Ubwuziranenge bwa CE",
+      "cert2": "RoHS Compliant",
+      "cert3": "UN38.3 Safe",
+      "cert4": "Quality Assured",
+      "p2": "Ubuziranenge ntabwo tugarukira. Dusuzuma buri kantu kose kuva ku bikoresho by'ibanze kugeza igikoresho cyuzuye."
+    },
+    "mission": {
+      "title": "Kugeza ikoranabuhanga mu gihugu cy'imisozi igihumbi",
+      "p1": "Intego yacu mu Rwanda ntabwo ari ukugurisha ibikoresho gusa. Dutanga inama n'ibishushanyo bijyanye n'ikirere n'imikorere y'umuriro mu Rwanda.",
+      "p2": "Binyuze muri Rwanda Biz Hub, dutanga ubufasha bwuzuye muri Kigali kuva utangiye kugura kugeza utangiye gukoresha ibikoresho."
+    },
+    "cta": {
+      "title": "Fatanya n'umuyobozi ku rwego rw'isi",
+      "subtitle": "Zana ikoranabuhanga rigezweho mu mushinga wawe mu Rwanda. Twubake ejo hazaza heza uyu munsi.",
+      "button": "Saba inama"
+    }
+  },
+  "advantages_page": {
+    "hero": {
+      "title": "Ibyiza bya Ruichu",
+      "subtitle": "Twubaka ejo hazaza heza duhuza ikoranabuhanga ryo ku rwego rw'isi n'ubumenyi bw'abakozi b'Abanyarwanda."
+    },
+    "cards": {
+      "direct": {
+        "title": "Gutumiza mu ruganda bidaciye ku bandi",
+        "description": "Gukorana natwe bivuze ko ubona ibikoresho biturutse mu ruganda mu buryo bwihuse kandi budahenze."
+      },
+      "quality": {
+        "title": "Ubuziranenge bwemewe ku rwego rw'isi",
+        "description": "Ibikoresho byacu byujuje ubuziranenge mpuzamahanga nka CE, RoHS na UN38.3."
+      },
+      "biz_hub": {
+        "title": "Ubufasha bwa Rwanda Biz Hub",
+        "description": "Dutanga inama n'ubufasha mu buryo bwuzuye muri Kigali kugira ngo umushinga wawe ugende neza."
+      },
+      "global": {
+        "title": "Ubunararibonye ku rwego rw'isi",
+        "description": "Ubunararibonye bwacu bwo mu bihugu bitandukanye butuma tuguha ibishushanyo binogeye akarere uherereyemo."
+      }
+    },
+    "cta": {
+      "title": "Fatanya na Ruichu Solar Rwanda",
+      "subtitle": "Urashaka kongera ingufu z'umushinga wawe? Inzobere zacu ziri hano kugira ngo zigufashe.",
+      "button": "Saba inama"
+    }
+  },
+  "products_page": {
+    "header": {
+      "title": "Ibiranga ibikoresho byacu",
+      "subtitle": "Ibikoresho by'ingufu zikomoka ku zuba byujuje ubuziranenge bigezwa mu Rwanda binyuye mu buryo bwizewe."
+    },
+    "catalog": {
+      "solar_panels": {
+        "title": "Imirasire y'izuba",
+        "subtitle": "Ikoranabuhanga ryo mu Bushinwa",
+        "description": "Imirasire yacu yatoranyijwe hitawe ku buryo izuba ryaka mu Rwanda kugira ngo itange ingufu nyinshi.",
+        "features": [
+          "Miliyoni 22.5% y'ingufu",
+          "Ikirahure kidakumira imirasire",
+          "Garanti y'imyaka 25",
+          "Kwihanganira umuyaga mwinshi"
+        ]
+      },
+      "portable_power": {
+        "title": "Imashini zitanga umuriro (Portable Power)",
+        "subtitle": "Umuriro aho uri hose",
+        "description": "Imashini zishobora kugendana, zikoreshwa hanze cyangwa mu rugo mu gihe umuriro wagiye.",
+        "features": [
+          "Bateri za LiFePO4 zikomeye",
+          "Uburyo bwinshi bwo gusohora umuriro",
+          "Zoroshye kugendana",
+          "Zishobora kwishyirwa n'izuba"
+        ]
+      },
+      "storage_systems": {
+        "title": "Sisitemu zo kubika ingufu",
+        "subtitle": "Kwigira mu ngufu",
+        "description": "Uburyo bwo kubika umuriro mu rugo cyangwa mu bucuruzi, bukoreshwa hamwe n'intsinga zigezweho.",
+        "features": [
+          "Uburyo bwo kongeranya bateri",
+          "Gukoresha intsinga za EU/US",
+          "Gukurikirana imikorere",
+          "Kubika umuriro mwinshi"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Witeguye gucana ejo hazaza? Tubwire.",
+      "subtitle": "Inama z'ubumenyi muri Kigali ziraboneka. Saba inama uyu munsi kugira ngo tugufashe.",
+      "button": "Saba inama"
+    }
+  },
+  "footer": {
+    "brand": {
+      "description": "Kwihutisha ikoreshwa ry'ingufu zisukuye ku rwego rw'isi binyuze mu bisubizo by'ingufu z'icyatsi zizewe, zikora neza, kandi zifite ubwenge mu Gihugu cy'Imisozi Igihumbi."
+    },
+    "links": {
+      "title": "Ihuza ryihuse",
+      "about": "Abo turibo",
+      "products": "Ibikoresho",
+      "advantages": "Ibyiza",
+      "services": "Serivisi",
+      "contact": "Twandikire"
+    },
+    "office": {
+      "title": "Ibiro n'aho duherereye"
+    },
+    "legal": {
+      "copy": "© 2026 Ruichu Solar Rwanda. Uburenganzira bwose birasubitswe.",
+      "privacy": "Ibigenga ibanga",
+      "terms": "Amategeko n'amabwiriza"
+    }
+  }
+}

@@ -1,49 +1,37 @@
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 import { motion } from 'motion/react';
 import { Link } from 'react-router-dom';
-
-const PRODUCTS = [
-  {
-    title: "Solar Panels",
-    subtitle: "Chinese Engineering Excellence",
-    description: "Our monocrystalline solar panels are sourced from top-tier Chinese manufacturers, ensuring the highest conversion rates and durability. Specifically chosen for Rwanda's varying light conditions, these panels offer peak performance from dawn until dusk.",
-    features: [
-      "Up to 22.5% efficiency rating",
-      "Anti-reflective self-cleaning glass",
-      "25-year linear power warranty",
-      "High wind and snow load resistance"
-    ],
-    image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=1000&auto=format&fit=crop"
-  },
-  {
-    title: "Portable Power Stations",
-    subtitle: "Power on the Move",
-    description: "Versatile, high-capacity mobile power supplies for outdoor, home backup, and emergency use. Includes portable, handbag and sleeve models. These stations provide clean, silent power wherever you need it, from camping trips to critical home backup during outages.",
-    features: [
-      "High-capacity LiFePO4 batteries",
-      "Multiple output ports (AC, USB, DC)",
-      "Portable, handbag & sleeve designs",
-      "Solar charging compatible"
-    ],
-    image: "https://placehold.co/800x600/1A472A/FFFFFF?text=Portable+Power+Station"
-  },
-  {
-    title: "Energy Storage Systems",
-    subtitle: "Energy Independence",
-    description: "Comprehensive residential and commercial stacked battery solutions integrated with EU/US standard inverters for maximum energy independence. Our high-voltage systems ensure seamless transition to battery power with minimal efficiency loss.",
-    features: [
-      "Stacked modular design",
-      "Integrated EU/US standard inverters",
-      "Intelligent peak-shaving logic",
-      "Comprehensive cloud monitoring"
-    ],
-    image: "https://placehold.co/800x600/1A472A/FFFFFF?text=Energy+Storage+System"
-  }
-];
+import { useTranslation } from 'react-i18next';
 
 export default function ProductsPage() {
+  const { t } = useTranslation();
+
+  const PRODUCTS = [
+    {
+      title: t('products_page.catalog.solar_panels.title'),
+      subtitle: t('products_page.catalog.solar_panels.subtitle'),
+      description: t('products_page.catalog.solar_panels.description'),
+      features: t('products_page.catalog.solar_panels.features', { returnObjects: true }) as string[],
+      image: "https://images.unsplash.com/photo-1509391366360-2e959784a276?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      title: t('products_page.catalog.portable_power.title'),
+      subtitle: t('products_page.catalog.portable_power.subtitle'),
+      description: t('products_page.catalog.portable_power.description'),
+      features: t('products_page.catalog.portable_power.features', { returnObjects: true }) as string[],
+      image: "https://i.postimg.cc/QdRShY9X/portable-station.png"
+    },
+    {
+      title: t('products_page.catalog.storage_systems.title'),
+      subtitle: t('products_page.catalog.storage_systems.subtitle'),
+      description: t('products_page.catalog.storage_systems.description'),
+      features: t('products_page.catalog.storage_systems.features', { returnObjects: true }) as string[],
+      image: "https://i.postimg.cc/hPQdcD9F/Gemini-Generated-Image-8opx6m8opx6m8opx.png"
+    }
+  ];
+
   return (
-    <div className="pt-20">
+    <div className="pt-[calc(80px+env(safe-area-inset-top))]">
       {/* Header */}
       <section className="bg-primary py-20 text-center px-6">
         <motion.h1 
@@ -51,7 +39,7 @@ export default function ProductsPage() {
           whileInView={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-5xl font-bold text-white mb-6"
         >
-          Our Product Catalog
+          {t('products_page.header.title')}
         </motion.h1>
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
@@ -59,7 +47,7 @@ export default function ProductsPage() {
           transition={{ delay: 0.1 }}
           className="text-lg text-white/80 max-w-2xl mx-auto"
         >
-          World-class solar hardware directly imported and supported in Rwanda.
+          {t('products_page.header.subtitle')}
         </motion.p>
       </section>
 
@@ -74,11 +62,11 @@ export default function ProductsPage() {
                 whileInView={{ opacity: 1, x: 0 }}
                 className="w-full md:w-1/2"
               >
-                <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <div className="relative rounded-xl overflow-hidden shadow-2xl">
                   <img 
                     src={product.image} 
                     alt={product.title} 
-                    className="w-full h-[400px] object-cover hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full min-h-[400px] object-cover hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent" />
                 </div>
@@ -115,14 +103,15 @@ export default function ProductsPage() {
       <section className="bg-[#f0fdf4] py-24 px-6 text-center">
         <div className="max-w-4xl mx-auto space-y-8">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
-            Ready to Power Your Future? Let's Talk.
+            {t('products_page.cta.title')}
           </h2>
           <p className="text-lg text-gray-600">
-            Face-to-face meetings with our local staff in Kigali are always available. Book now to discuss your specific energy needs.
+            {t('products_page.cta.subtitle')}
           </p>
           <div className="flex justify-center pt-4">
-            <Link to="/contact#inquiry-form" className="bg-primary text-white px-10 py-4 rounded-sm font-bold text-base hover:bg-opacity-95 transition-all shadow-lg">
-              Book a Consultation
+            <Link to="/contact#inquiry-form" className="bg-primary text-white px-10 py-4 rounded-sm font-bold text-base hover:bg-opacity-95 transition-all shadow-lg flex items-center gap-2 group">
+              {t('products_page.cta.button')}
+              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
         </div>

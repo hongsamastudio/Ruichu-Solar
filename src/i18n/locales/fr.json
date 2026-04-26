@@ -1,0 +1,285 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À Propos",
+    "products": "Produits",
+    "advantages": "Avantages",
+    "contact": "Contact",
+    "book": "Prendre RDV"
+  },
+  "hero": {
+    "title": "Solutions d'Énergie Propre pour un Avenir Vert",
+    "subtitle": "Autonomiser les communautés avec des solutions d'énergie solaire durables, fiables et abordables au Rwanda.",
+    "cta": "Commencer"
+  },
+  "landing": {
+    "products": {
+      "heading": "Nos Solutions Systèmes",
+      "details": "Conçus pour l'efficacité, construits pour la durabilité. Nous apportons une technologie de classe mondiale adaptée aux conditions du Rwanda.",
+      "solar_panels": {
+        "title": "Panneaux Solaires",
+        "description": "Cellules monocristallines à haute efficacité conçues pour une performance maximale même par faible luminosité."
+      },
+      "power_stations": {
+        "title": "Stations d'Énergie Portables",
+        "description": "Alimentation portable haute capacité pour l'extérieur, le secours domestique et l'utilisation d'urgence."
+      },
+      "storage_systems": {
+        "title": "Stockage d'Énergie",
+        "description": "Systèmes de batteries empilables pour une indépendance énergétique résidentielle et commerciale totale."
+      }
+    },
+    "advantages": {
+      "heading": "Pourquoi nous choisir ?",
+      "direct_import": {
+        "title": "Importation directe",
+        "description": "Technologie de pointe directement des fabricants mondiaux sans intermédiaire."
+      },
+      "quality": {
+        "title": "Qualité Certifiée",
+        "description": "Tous les produits respectent les normes internationales les plus strictes (CE, RoHS, UN38.3)."
+      },
+      "support": {
+        "title": "Support Local",
+        "description": "Support technique complet et service après-vente assurés directement à Kigali via Rwanda Biz Hub."
+      }
+    },
+    "cta_section": {
+      "title": "Prêt à démarrer votre projet ?",
+      "subtitle": "Nous sommes présents à Kigali pour vous accompagner. Demandez une consultation dès aujourd'hui.",
+      "button": "Demander une consultation"
+    }
+  },
+  "services": {
+    "header": {
+      "title": "Services et Expertise au Rwanda",
+      "subtitle": "De l'usine à l'installation, Rwanda Biz Hub facilite chaque étape de votre transition énergétique au Rwanda."
+    },
+    "engineering": {
+      "title": "Conception et Ingénierie",
+      "description": "Notre équipe d'ingénieurs à Kigali conçoit des systèmes adaptés à votre emplacement et à vos besoins énergétiques.",
+      "features": [
+        "Évaluation du site du projet",
+        "Conception de systèmes personnalisés",
+        "Sélection d'équipements premium",
+        "Analyse de charge énergétique"
+      ]
+    },
+    "installation": {
+      "title": "Installation Professionnelle",
+      "description": "Nos techniciens experts installent vos systèmes en mettant l'accent sur la sécurité et la performance optimale.",
+      "features": [
+        "Équipe technique locale à Kigali",
+        "Câblage conforme aux normes",
+        "Tests de mise en service",
+        "Formation des utilisateurs"
+      ]
+    },
+    "support": {
+      "title": "Maintenance et Support",
+      "description": "Nous ne nous arrêtons pas à l'installation. Rwanda Biz Hub assure un suivi technique complet.",
+      "features": [
+        "Centre de service local à Kigali",
+        "Surveillance des performances",
+        "Support technique prioritaire",
+        "Gestion des garanties"
+      ]
+    },
+    "biz_hub": {
+      "title": "L'Avantage Rwanda Biz Hub",
+      "description": "Nous combinons l'excellence technologique mondiale avec une présence locale forte pour un service sans compromis.",
+      "tags": {
+        "local": "Experts locaux à Kigali",
+        "direct": "Importation directe d'usine",
+        "tech": "Technologie de pointe"
+      }
+    },
+    "cta": {
+      "title": "Démarrer avec nos experts",
+      "description": "Consultez nos ingénieurs locaux à Kigali pour concevoir votre solution énergétique sur mesure.",
+      "button": "Réserver une consultation"
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "Contactez Ruichu Solar Rwanda",
+      "subtitle": "Un projet en tête ou besoin d'un conseil technique ? Notre équipe à Kigali est prête à vous aider."
+    },
+    "details": {
+      "title": "Coordonnées",
+      "kigali_office": {
+        "title": "Bureau de Kigali",
+        "address": "KABC KN5, Kigali, Rwanda"
+      },
+      "email": {
+        "title": "Email",
+        "value": "rwanda.biz.hub@gmail.com"
+      },
+      "call": {
+        "title": "Appelez-nous",
+        "value": "+250786018176"
+      },
+      "hours": {
+        "title": "Heures d'ouverture",
+        "value": "Lun - Ven, 08:00 - 17:00"
+      }
+    },
+    "experts": {
+      "title": "Rencontrez nos experts locaux",
+      "description": "Nous croyons en la force du partenariat direct. Nos experts à Kigali sont disponibles pour des consultations personnalisées."
+    },
+    "form": {
+      "title": "Envoyer une demande",
+      "labels": {
+        "name": "Nom complet",
+        "email": "Adresse email",
+        "subject": "Sujet",
+        "message": "Message"
+      },
+      "placeholders": {
+        "name": "Votre nom",
+        "email": "email@example.com",
+        "message": "Comment pouvons-nous vous aider ?"
+      },
+      "subjects": {
+        "general": "Demande générale",
+        "quote": "Demande de devis",
+        "support": "Support technique",
+        "partnership": "Partenariat commercial"
+      },
+      "checkbox": "Demander un devis / Rendez-vous au bureau de Kigali",
+      "button": "Envoyer le message / Réserver un RDV"
+    },
+    "map": {
+      "title": "Visitez notre bureau à Kigali",
+      "description": "Nos locaux sont situés au cœur du quartier des affaires de Kigali. Nous vous accueillons pendant les heures de bureau."
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Innover pour un Rwanda durable",
+      "subtitle": "Nous accélérons l'adoption des énergies propres grâce à des solutions intelligentes et sécurisées."
+    },
+    "heritage": {
+      "title": "Leader mondial du stockage d'énergie",
+      "p1": "Ruichu Solar Rwanda est le partenaire local de Shaoxing Ruichu Technology Co., Ltd., une entreprise mondiale spécialisée dans les solutions d'énergie portables.",
+      "p2": "Avec des années d'expérience, nous avons développé une gamme de produits alliant technologie avancée et besoins réels des utilisateurs."
+    },
+    "quality": {
+      "title": "Excellence R&D et Certifications",
+      "p1": "L'innovation indépendante est au cœur de nos produits. Nous disposons de notre propre base de production et d'une équipe R&D dédiée.",
+      "cert1": "Certifié CE",
+      "cert2": "Conforme RoHS",
+      "cert3": "Sécurité UN38.3",
+      "cert4": "Qualité Assurée",
+      "p2": "La qualité n'est pas négociable ; nous appliquons un système d'assurance complet, de la matière première au produit fini."
+    },
+    "mission": {
+      "title": "La technologie au service du Pays des Mille Collines",
+      "p1": "Notre objectif au Rwanda va au-delà du matériel. Nous proposons des solutions adaptées aux normes électriques et climatiques locales.",
+      "p2": "Via Rwanda Biz Hub, nous offrons une expérience de partenariat fluide avec un support technique complet à Kigali."
+    },
+    "cta": {
+      "title": "Collaborez avec un leader mondial",
+      "subtitle": "Apportez une technologie de classe mondiale à votre projet au Rwanda. Construisons ensemble un avenir durable.",
+      "button": "Réserver une consultation"
+    }
+  },
+  "advantages_page": {
+    "hero": {
+      "title": "L'avantage Ruichu",
+      "subtitle": "Ancrés dans la technologie verte, nous construisons un avenir durable en alliant production mondiale et expertise locale."
+    },
+    "cards": {
+      "direct": {
+        "title": "Importation directe d'usine",
+        "description": "En travaillant directement avec le fabricant, nous assurons un contrôle total sur la technologie et des prix compétitifs."
+      },
+      "quality": {
+        "title": "Qualité mondiale certifiée",
+        "description": "Nos produits respectent les normes internationales les plus strictes : CE, RoHS et UN38.3."
+      },
+      "biz_hub": {
+        "title": "Intégration Rwanda Biz Hub",
+        "description": "Nous offrons un système de service complet : conseil, conception sur mesure et support technique à Kigali."
+      },
+      "global": {
+        "title": "Expérience internationale prouvée",
+        "description": "Notre présence globale nous permet d'adapter parfaitement nos solutions aux conditions spécifiques du Rwanda."
+      }
+    },
+    "cta": {
+      "title": "Devenez partenaire de Ruichu Solar Rwanda",
+      "subtitle": "Prêt à gagner en indépendance énergétique ? Nos experts locaux sont là pour vous guider.",
+      "button": "Réserver une consultation"
+    }
+  },
+  "products_page": {
+    "header": {
+      "title": "Notre catalogue de produits",
+      "subtitle": "Matériel solaire de classe mondiale importé directement et supporté au Rwanda."
+    },
+    "catalog": {
+      "solar_panels": {
+        "title": "Panneaux Solaires",
+        "subtitle": "Excellence de l'ingénierie chinoise",
+        "description": "Nos panneaux monocristallins offrent les meilleurs taux de conversion, adaptés aux conditions lumineuses du Rwanda.",
+        "features": [
+          "Efficacité jusqu'à 22,5%",
+          "Verre autonettoyant antireflet",
+          "Garantie de puissance 25 ans",
+          "Haute résistance aux intempéries"
+        ]
+      },
+      "portable_power": {
+        "title": "Stations d'énergie portables",
+        "subtitle": "L'énergie partout avec vous",
+        "description": "Solutions mobiles haute capacité pour l'extérieur, le secours domestique et l'urgences.",
+        "features": [
+          "Batteries LiFePO4 haute capacité",
+          "Ports de sortie multiples (AC, USB, DC)",
+          "Design compact et portable",
+          "Compatible charge solaire"
+        ]
+      },
+      "storage_systems": {
+        "title": "Systèmes de stockage d'énergie",
+        "subtitle": "Indépendance Énergétique",
+        "description": "Solutions de batteries empilables pour résidentiel et commercial avec onduleurs intégrés aux normes EU/US.",
+        "features": [
+          "Design modulaire empilable",
+          "Onduleurs EU/US intégrés",
+          "Gestion intelligente de l'énergie",
+          "Surveillance via le cloud"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Prêt pour votre avenir énergétique ? Discutons-en.",
+      "subtitle": "Des rendez-vous avec nos experts à Kigali sont disponibles. Réservez dès maintenant.",
+      "button": "Réserver une consultation"
+    }
+  },
+  "footer": {
+    "brand": {
+      "description": "Accélérer l'adoption mondiale des énergies propres grâce à des solutions d'alimentation verte sûres, efficaces et intelligentes au Pays des Mille Collines."
+    },
+    "links": {
+      "title": "Liens Rapides",
+      "about": "À propos",
+      "products": "Produits",
+      "advantages": "Avantages",
+      "services": "Services",
+      "contact": "Contact"
+    },
+    "office": {
+      "title": "Bureau de Contact"
+    },
+    "legal": {
+      "copy": "© 2026 Ruichu Solar Rwanda. Tous droits réservés.",
+      "privacy": "Politique de Confidentialité",
+      "terms": "Conditions d'Utilisation"
+    }
+  }
+}

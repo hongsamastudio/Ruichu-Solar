@@ -1,10 +1,13 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { Mail, Phone, MapPin, Clock, Users, Map as MapIcon, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Clock, Users, Send } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 const ContactPage: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
-    <div className="pt-20">
+    <div className="pt-[calc(80px+env(safe-area-inset-top))]">
       {/* Header Section */}
       <section className="bg-[#1A472A] text-white py-24 px-6 text-center">
         <div className="max-w-4xl mx-auto space-y-6">
@@ -13,7 +16,7 @@ const ContactPage: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-5xl font-bold"
           >
-            Contact Ruichu Solar Rwanda
+            {t('contact.header.title')}
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0 }}
@@ -21,7 +24,7 @@ const ContactPage: React.FC = () => {
             transition={{ delay: 0.2 }}
             className="text-lg md:text-xl text-gray-200 leading-relaxed"
           >
-            Have a project in mind or need technical advice? Our local team in Kigali is ready to power your transition to sustainable energy.
+            {t('contact.header.subtitle')}
           </motion.p>
         </div>
       </section>
@@ -34,7 +37,7 @@ const ContactPage: React.FC = () => {
           <div className="space-y-12">
             <div className="space-y-8">
               <h2 className="text-3xl font-bold text-gray-900 border-b pb-4 border-gray-100">
-                Contact Details
+                {t('contact.details.title')}
               </h2>
               
               <div className="space-y-6">
@@ -43,8 +46,8 @@ const ContactPage: React.FC = () => {
                     <MapPin className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Kigali Office</h4>
-                    <p className="text-gray-600">KABC KN5, Kigali, Rwanda</p>
+                    <h4 className="font-bold text-gray-900">{t('contact.details.kigali_office.title')}</h4>
+                    <p className="text-gray-600">{t('contact.details.kigali_office.address')}</p>
                   </div>
                 </div>
 
@@ -53,7 +56,7 @@ const ContactPage: React.FC = () => {
                     <Mail className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Email Us</h4>
+                    <h4 className="font-bold text-gray-900">{t('contact.details.email.title')}</h4>
                     <p className="text-gray-600">rwanda.biz.hub@gmail.com</p>
                   </div>
                 </div>
@@ -63,7 +66,7 @@ const ContactPage: React.FC = () => {
                     <Phone className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Call Us</h4>
+                    <h4 className="font-bold text-gray-900">{t('contact.details.call.title')}</h4>
                     <p className="text-gray-600">+250786018176</p>
                   </div>
                 </div>
@@ -73,8 +76,8 @@ const ContactPage: React.FC = () => {
                     <Clock className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h4 className="font-bold text-gray-900">Business Hours</h4>
-                    <p className="text-gray-600">Mon - Fri, 8:00 AM - 5:00 PM</p>
+                    <h4 className="font-bold text-gray-900">{t('contact.details.hours.title')}</h4>
+                    <p className="text-gray-600">{t('contact.details.hours.value')}</p>
                   </div>
                 </div>
               </div>
@@ -84,10 +87,10 @@ const ContactPage: React.FC = () => {
             <div className="bg-gray-50 p-8 rounded-sm border-l-4 border-primary space-y-4">
               <div className="flex items-center gap-3 text-primary mb-2">
                 <Users className="w-6 h-6" />
-                <h3 className="text-xl font-bold uppercase tracking-wider text-sm">Meet Our Local Experts</h3>
+                <h3 className="text-xl font-bold uppercase tracking-wider text-sm">{t('contact.experts.title')}</h3>
               </div>
               <p className="text-gray-600 leading-relaxed">
-                We believe in the power of face-to-face partnership. Our dedicated local staff in Kigali is available for in-person consultations to discuss your specific energy needs, site assessments, and business investment opportunities through Rwanda Biz Hub.
+                {t('contact.experts.description')}
               </p>
             </div>
           </div>
@@ -95,26 +98,26 @@ const ContactPage: React.FC = () => {
           {/* Right Column: Inquiry Form */}
           <div id="inquiry-form" className="bg-white p-8 md:p-10 rounded-sm shadow-xl border border-gray-100 scroll-mt-24">
             <h3 className="text-2xl font-bold text-gray-900 mb-8 flex items-center gap-2">
-              Send an Inquiry
+              {t('contact.form.title')}
             </h3>
             <form action="https://formspree.io/f/xkokevey" method="POST" className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
-                  <label className="text-sm font-semibold text-gray-700">Full Name</label>
+                  <label className="text-sm font-semibold text-gray-700">{t('contact.form.labels.name')}</label>
                   <input 
                     type="text" 
                     name="fullName"
-                    placeholder="Your Name" 
+                    placeholder={t('contact.form.placeholders.name')} 
                     required
                     className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
                   />
                 </div>
                 <div className="space-y-2">
-                  <label className="text-sm font-semibold text-gray-700">Email Address</label>
+                  <label className="text-sm font-semibold text-gray-700">{t('contact.form.labels.email')}</label>
                   <input 
                     type="email" 
                     name="email"
-                    placeholder="email@example.com" 
+                    placeholder={t('contact.form.placeholders.email')} 
                     required
                     className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
                   />
@@ -122,21 +125,21 @@ const ContactPage: React.FC = () => {
               </div>
 
               <div className="space-y-2">
-                <label className="text-sm font-semibold text-gray-700">Subject</label>
+                <label className="text-sm font-semibold text-gray-700">{t('contact.form.labels.subject')}</label>
                 <select name="inquiry_type" className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all">
-                  <option value="General Inquiry">General Inquiry</option>
-                  <option value="Quote Request">Quote Request</option>
-                  <option value="Technical Support">Technical Support</option>
-                  <option value="Business Partnership">Business Partnership</option>
+                  <option value="General Inquiry">{t('contact.form.subjects.general')}</option>
+                  <option value="Quote Request">{t('contact.form.subjects.quote')}</option>
+                  <option value="Technical Support">{t('contact.form.subjects.support')}</option>
+                  <option value="Business Partnership">{t('contact.form.subjects.partnership')}</option>
                 </select>
               </div>
 
               <div className="space-y-2">
-                <label className="text-sm font-semibold text-gray-700">Message</label>
+                <label className="text-sm font-semibold text-gray-700">{t('contact.form.labels.message')}</label>
                 <textarea 
                   name="message"
                   rows={4}
-                  placeholder="How can we help you?" 
+                  placeholder={t('contact.form.placeholders.message')} 
                   required
                   className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-sm focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all resize-none"
                 />
@@ -151,7 +154,7 @@ const ContactPage: React.FC = () => {
                   className="w-5 h-5 accent-primary cursor-pointer"
                 />
                 <label htmlFor="request-meeting" className="text-sm text-gray-700 cursor-pointer select-none">
-                  Request Quote / Personal Meeting at Kigali Office
+                  {t('contact.form.checkbox')}
                 </label>
               </div>
 
@@ -159,7 +162,7 @@ const ContactPage: React.FC = () => {
                 type="submit" 
                 className="w-full bg-primary text-white py-4 rounded-sm font-bold flex items-center justify-center gap-2 hover:bg-opacity-95 transition-all shadow-lg text-lg group"
               >
-                Send Message / Book Meeting
+                {t('contact.form.button')}
                 <Send className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
               </button>
             </form>
@@ -171,9 +174,9 @@ const ContactPage: React.FC = () => {
       <section id="office-map" className="py-24 px-6 bg-gray-50 border-t border-gray-200 scroll-mt-24">
         <div className="max-w-7xl mx-auto space-y-12">
           <div className="text-center space-y-4">
-            <h2 className="text-3xl font-bold text-gray-900">Visit Us in Kigali</h2>
+            <h2 className="text-3xl font-bold text-gray-900">{t('contact.map.title')}</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              Our office is located in the heart of Kigali's business district. We welcome walk-in inquiries during business hours.
+              {t('contact.map.description')}
             </p>
           </div>
           

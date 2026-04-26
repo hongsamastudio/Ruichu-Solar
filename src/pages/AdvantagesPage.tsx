@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Award, Shield, Landmark, Globe, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const AdvantageCard = ({ icon: Icon, title, description }: { icon: any, title: string, description: string }) => (
   <motion.div 
@@ -19,8 +20,10 @@ const AdvantageCard = ({ icon: Icon, title, description }: { icon: any, title: s
 );
 
 const AdvantagesPage: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
-    <div className="pt-20">
+    <div className="pt-[calc(80px+env(safe-area-inset-top))]">
       {/* Hero Section */}
       <section className="bg-[#1A472A] text-white py-24 px-6">
         <div className="max-w-7xl mx-auto text-center">
@@ -29,7 +32,7 @@ const AdvantagesPage: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-5xl font-bold mb-6"
           >
-            The Ruichu Advantage
+            {t('advantages_page.hero.title')}
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0 }}
@@ -37,7 +40,7 @@ const AdvantagesPage: React.FC = () => {
             transition={{ delay: 0.2 }}
             className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed"
           >
-            Deeply rooted in green energy technology, we build a sustainable future together by combining world-class manufacturing with dedicated local expertise.
+            {t('advantages_page.hero.subtitle')}
           </motion.p>
         </div>
       </section>
@@ -48,23 +51,23 @@ const AdvantagesPage: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <AdvantageCard 
               icon={Landmark}
-              title="Direct-Import & R&D Excellence"
-              description="By partnering directly with a leading manufacturer equipped with an independent R&D team, we ensure complete control over core technologies. You get state-of-the-art products without the middleman markup."
+              title={t('advantages_page.cards.direct.title')}
+              description={t('advantages_page.cards.direct.description')}
             />
             <AdvantageCard 
               icon={Shield}
-              title="Certified Global Quality"
-              description="Uncompromising quality is our standard. Our products undergo rigorous testing from raw materials to final assembly and hold major international certifications, including CE, RoHS, and UN38.3."
+              title={t('advantages_page.cards.quality.title')}
+              description={t('advantages_page.cards.quality.description')}
             />
             <AdvantageCard 
               icon={Award}
-              title="Rwanda Biz Hub Integration"
-              description="We offer more than just products. Through our Rwanda Biz Hub, we provide a complete service system covering pre-sales consultation, custom solution design, and reliable after-sales technical support right here in Kigali."
+              title={t('advantages_page.cards.biz_hub.title')}
+              description={t('advantages_page.cards.biz_hub.description')}
             />
             <AdvantageCard 
               icon={Globe}
-              title="Proven Global Track Record"
-              description="With extensive experience exporting across Europe, the Americas, Australia, and Africa, we deeply understand international standards and perfectly tailor our solutions to Rwanda's specific grid and climate conditions."
+              title={t('advantages_page.cards.global.title')}
+              description={t('advantages_page.cards.global.description')}
             />
           </div>
         </div>
@@ -74,17 +77,17 @@ const AdvantagesPage: React.FC = () => {
       <section className="bg-[#f0fdf4] py-24 px-6 text-center">
         <div className="max-w-4xl mx-auto space-y-8">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
-            Partner with Ruichu Solar Rwanda
+            {t('advantages_page.cta.title')}
           </h2>
           <p className="text-lg text-gray-600">
-            Ready to elevate your energy independence? Let our local experts guide you.
+            {t('advantages_page.cta.subtitle')}
           </p>
           <div className="flex justify-center pt-4">
             <Link 
               to="/contact#inquiry-form" 
               className="bg-primary text-white px-10 py-4 rounded-sm font-bold text-base hover:bg-opacity-95 transition-all shadow-lg flex items-center gap-2 group"
             >
-              Book a Consultation
+              {t('advantages_page.cta.button')}
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>

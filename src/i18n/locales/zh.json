@@ -1,0 +1,283 @@
+{
+  "nav": {
+    "home": "首页",
+    "services": "服务",
+    "about": "关于我们",
+    "products": "产品中心",
+    "advantages": "核心优势",
+    "contact": "联系我们",
+    "book": "预约咨询"
+  },
+  "hero": {
+    "title": "致力绿色明天的清洁能源解决方案",
+    "subtitle": "为卢旺达及其他地区的社区提供可持续、可靠且价格合理的太阳能解决方案。",
+    "cta": "立即开始"
+  },
+  "landing": {
+    "products": {
+      "heading": "我们的系统解决方案",
+      "details": "为效率而设计，为耐用而制造。我们为您带来适配卢旺达环境的世界级技术。",
+      "solar_panels": {
+        "title": "太阳能电池板",
+        "description": "采用单晶高效电池，即使在弱光条件下也能保持卓越性能。"
+      },
+      "power_stations": {
+        "title": "便携式电站",
+        "description": "大容量移动电源，适用于户外、家庭备用及紧急供电。"
+      },
+      "storage_systems": {
+        "title": "储能系统",
+        "description": "堆叠式电池系统，为家庭和商业提供完整的能源自给自足。"
+      }
+    },
+    "advantages": {
+      "heading": "我们的优势",
+      "direct_import": {
+        "title": "工厂直供",
+        "description": "直接从中国领先制造商进口，省去中间环节，为您提供最新技术。"
+      },
+      "quality": {
+        "title": "全球质量认证",
+        "description": "所有产品均通过 CE、RoHS、UN38.3 等严格国际标准认证。"
+      },
+      "support": {
+        "title": "当地技术支持",
+        "description": "通过基加利的 Rwanda Biz Hub，提供专业的线下技术支持和售后服务。"
+      }
+    },
+    "cta_section": {
+      "title": "准备好开始您的项目了吗？",
+      "subtitle": "我们在基加利为您提供支持。立即预约免费咨询。",
+      "button": "预约咨询"
+    }
+  },
+  "services": {
+    "header": {
+      "title": "盧旺達的专业服务",
+      "subtitle": "从工厂到安装，Rwanda Biz Hub 助力您在卢旺达的能源转型。"
+    },
+    "engineering": {
+      "title": "设计与工程",
+      "description": "我们在基加利的团队将根据您的位置和用电需求设计最优系统。",
+      "features": [
+        "项目现场评估",
+        "定制化系统设计",
+        "优质设备选型",
+        "用电负荷分析"
+      ]
+    },
+    "installation": {
+      "title": "专业安装",
+      "description": "我们的技师确保安装过程安全高效，保障产品性能。",
+      "features": [
+        "基加利当地技术团队",
+        "符合标准的电气布线",
+        "系统调试与测试",
+        "用户操作培训"
+      ]
+    },
+    "support": {
+      "title": "维护与支持",
+      "description": "我们的服务不止于安装。Rwanda Biz Hub 提供长期的技术保障。",
+      "features": [
+        "基加利服务中心",
+        "系统运行监测",
+        "优先技术支持",
+        "售后质保服务"
+      ]
+    },
+    "biz_hub": {
+      "title": "Rwanda Biz Hub 的核心价值",
+      "description": "结合中国先进的能源生产技术与当地的深度服务，打造卓越体验。",
+      "tags": {
+        "local": "卢旺达当地专家",
+        "direct": "工厂直采直供",
+        "tech": "前沿能源技术"
+      }
+    },
+    "cta": {
+      "title": "与专家面谈",
+      "description": "请咨询我们在基加利的工程师，为您量身定制能源解决方案。",
+      "button": "预约咨询"
+    }
+  },
+  "contact": {
+    "header": {
+      "title": "联系 Ruichu Solar Rwanda",
+      "subtitle": "有项目想法或需要技术建议？我们在基加利的团队已准备好为您服。"
+    },
+    "details": {
+      "title": "联系方式",
+      "kigali_office": {
+        "title": "基加利办公室",
+        "address": "KABC KN5, 基加利, 卢旺达"
+      },
+      "email": {
+        "title": "邮件咨询"
+      },
+      "call": {
+        "title": "电话咨询"
+      },
+      "hours": {
+        "title": "营业时间",
+        "value": "周一至周五, 08:00 - 17:00"
+      }
+    },
+    "experts": {
+      "title": "会见当地专家",
+      "description": "我们重视线下沟通。我们在基加利的员工可为您提供面对面的咨询服务。"
+    },
+    "form": {
+      "title": "在线咨询",
+      "labels": {
+        "name": "全名",
+        "email": "邮箱地址",
+        "subject": "主题",
+        "message": "内容"
+      },
+      "placeholders": {
+        "name": "请输入您的姓名",
+        "email": "email@example.com",
+        "message": "我们能为您提供什么帮助？"
+      },
+      "subjects": {
+        "general": "一般咨询",
+        "quote": "索取报价",
+        "support": "技术支持",
+        "partnership": "商务合作"
+      },
+      "checkbox": "索取报价 / 预约在基加利办公室面谈",
+      "button": "发送消息 / 预约面谈"
+    },
+    "map": {
+      "title": "访问我们的基加利办公室",
+      "description": "办公室位于基加利商业区中心。欢迎在营业时间内光临。"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "以可持续创新赋能卢旺达",
+      "subtitle": "我们致力于通过安全、高效、智能的绿色能源解决方案，加速清洁能源的应用。"
+    },
+    "heritage": {
+      "title": "全球储能系统领导者",
+      "p1": "Ruichu Solar Rwanda 是绍兴锐储科技有限公司的当地合作伙伴，该公司是一家生产高品质、高可靠性便携式电站和储能系统的全球性企业。",
+      "p2": "凭借在新能源领域的多年经验，我们构建了结合先进技术与实际需求的产品矩阵，业务遍及全球。"
+    },
+    "quality": {
+      "title": "研发实力与卓越认证",
+      "p1": "自主创新是我们的核心。我们拥有自己的生产基地和专业的研发团队，持续迭代核心技术。",
+      "cert1": "CE 认证",
+      "cert2": "RoHS 合规",
+      "cert3": "UN38.3 安全认证",
+      "cert4": "质量保证",
+      "p2": "质量不容妥协；我们严格遵循从原材料采购到成品检测的全程保体系。"
+    },
+    "mission": {
+      "title": "将技术带到“千丘之国”",
+      "p1": "我们在卢旺达的目标不止于硬件销售。我们根据当地的电网标准和气候条件提供灵活的产品定制方案。",
+      "p2": "通过 Rwanda Biz Hub，我们在基加利提供完整的售前、售中及售后技术支持。"
+    },
+    "cta": {
+      "title": "与全球领导者合作",
+      "subtitle": "将世界级能源技术引入您的卢旺达项目。让我们共创可持续发展的未来。",
+      "button": "预约咨询"
+    }
+  },
+  "advantages_page": {
+    "hero": {
+      "title": "Ruichu 的优势",
+      "subtitle": "扎根于绿色能源技术，我们将世界级制造能力与当地专业知识完美结合。"
+    },
+    "cards": {
+      "direct": {
+        "title": "直采直供与卓越研发",
+        "description": "直接与拥有独立研发团队的制造商合作，确保对核心技术的掌控，为您提供极具性价比的产品。"
+      },
+      "quality": {
+        "title": "认证的全球品质",
+        "description": "产品通过 CE、RoHS、UN38.3 等国际主要认证，代表了行业领先的可靠性。"
+      },
+      "biz_hub": {
+        "title": "Rwanda Biz Hub 深度集成",
+        "description": "在基加利当地提供从咨询、设计到售后的一站式闭环服务体系。"
+      },
+      "global": {
+        "title": "丰富的全球出口经验",
+        "description": "深刻理解卢旺达特有的电网和气候条件，打造完美的本地化定制方案。"
+      }
+    },
+    "cta": {
+      "title": "与 Ruichu Solar Rwanda 合作",
+      "subtitle": "准备好提升能源独立性了吗？让我们的当地专家为您指引。",
+      "button": "预约咨询"
+    }
+  },
+  "products_page": {
+    "header": {
+      "title": "产品目录",
+      "subtitle": "直接进口并在卢旺达当地提供支持的世界级太阳能硬件。"
+    },
+    "catalog": {
+      "solar_panels": {
+        "title": "太阳能电池板",
+        "subtitle": "中国卓越工程制造",
+        "description": "单晶硅组件经过精挑细选，旨在为您提供最高的转化率和耐用性，适配卢旺达的光照环境。",
+        "features": [
+          "高达 22.5% 的效率",
+          "防反射自清洁玻璃",
+          "25 年线性功率质保",
+          "出色的抗风雪负载能力"
+        ]
+      },
+      "portable_power": {
+        "title": "便携式电站",
+        "subtitle": "移动供电专家",
+        "description": "多功能大容量移动电源，适用于户外活动、家庭备用及紧急供电。提供多种便式设计。",
+        "features": [
+          "高容量磷酸铁锂电池 (LiFePO4)",
+          "多种输出接口 (AC, USB, DC)",
+          "轻便易携的设计",
+          "支持太阳能充电"
+        ]
+      },
+      "storage_systems": {
+        "title": "储能系统 (ESS)",
+        "subtitle": "实现能源自给自足",
+        "description": "堆叠式电池解决方案，集成欧盟/美国标准逆变器，为您打造卓越的能源独立系统。",
+        "features": [
+          "模块化堆叠设计",
+          "集成欧标/美标逆变器",
+          "智能削峰填谷逻辑",
+          "全面的云端监控平台"
+        ]
+      }
+    },
+    "cta": {
+      "title": "准备好开启绿色能源未来了吗？",
+      "subtitle": "欢迎与基加利的专家进行面对面交流。立即预约咨询。",
+      "button": "预约咨询"
+    }
+  },
+  "footer": {
+    "brand": {
+      "description": "在千丘之国，通过安全、高效、智能的绿色电力解决方案，加速全球清洁能源的应用。"
+    },
+    "links": {
+      "title": "快速链接",
+      "about": "关于我们",
+      "products": "产品中心",
+      "advantages": "核心优势",
+      "services": "专业服务",
+      "contact": "联系我们"
+    },
+    "office": {
+      "title": "办公地址"
+    },
+    "legal": {
+      "copy": "© 2026 Ruichu Solar Rwanda. 版权所有。",
+      "privacy": "隐私政策",
+      "terms": "服务条款"
+    }
+  }
+}

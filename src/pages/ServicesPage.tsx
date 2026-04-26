@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Settings, Wrench, Headphones, Briefcase, CheckCircle2, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const ServiceSection = ({ icon: Icon, title, description, features, imageUrl, reverse = false }: { 
   icon: any, 
@@ -33,12 +34,12 @@ const ServiceSection = ({ icon: Icon, title, description, features, imageUrl, re
         </ul>
       </div>
       <div className={`w-full md:w-1/2 ${reverse ? 'md:order-1' : ''}`}>
-        <div className="aspect-video bg-gray-100 rounded-sm overflow-hidden shadow-xl border border-gray-100">
+        <div className="aspect-[4/3] md:aspect-video bg-gray-100 rounded-xl overflow-hidden shadow-lg border border-gray-100 group">
            <img 
              src={imageUrl} 
              alt={title}
-             className="w-full h-full object-cover"
-             referrerPolicy="no-referrer"
+             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+             loading="eager"
            />
         </div>
       </div>
@@ -47,8 +48,10 @@ const ServiceSection = ({ icon: Icon, title, description, features, imageUrl, re
 );
 
 const ServicesPage: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
-    <div className="pt-20">
+    <div className="pt-[calc(80px+env(safe-area-inset-top))]">
       {/* Header Section */}
       <section className="bg-[#1A472A] text-white py-24 px-6">
         <div className="max-w-7xl mx-auto text-center">
@@ -57,7 +60,7 @@ const ServicesPage: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             className="text-4xl md:text-5xl font-bold mb-6"
           >
-            Our Professional Services
+            {t('services.header.title')}
           </motion.h1>
           <motion.p 
             initial={{ opacity: 0 }}
@@ -65,7 +68,7 @@ const ServicesPage: React.FC = () => {
             transition={{ delay: 0.2 }}
             className="text-lg md:text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed"
           >
-            We provide comprehensive end-to-end support to ensure your transition to sustainable energy is seamless, efficient, and perfectly matched to your goals.
+            {t('services.header.subtitle')}
           </motion.p>
         </div>
       </section>
@@ -73,41 +76,29 @@ const ServicesPage: React.FC = () => {
       {/* Service 1 */}
       <ServiceSection 
         icon={Settings}
-        title="Tailored Engineering for Rwanda’s Needs"
-        description="We don’t believe in one-size-fits-all. Our engineering team offers flexible product customization and solution design services specifically tailored to Rwanda’s grid standards and climatic conditions."
-        imageUrl="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=800&q=80"
-        features={[
-          "Site-specific energy requirement analysis",
-          "Customized system configuration (Off-grid & Hybrid)",
-          "Grid-stability optimization for sensitive appliances"
-        ]}
+        title={t('services.engineering.title')}
+        description={t('services.engineering.description')}
+        imageUrl="https://i.postimg.cc/c4DnNF9z/tailored-power.png"
+        features={t('services.engineering.features', { returnObjects: true }) as string[]}
       />
 
       {/* Service 2 */}
       <ServiceSection 
         icon={Wrench}
-        title="Seamless Installation & Setup Support"
-        description="Transitioning to solar should be stress-free. We provide comprehensive sales support and technical guidance to ensure your systems are installed correctly and safely for long-term performance."
-        imageUrl="https://images.unsplash.com/photo-1508514177221-188b1cf16e9d?auto=format&fit=crop&w=800&q=80"
+        title={t('services.installation.title')}
+        description={t('services.installation.description')}
+        imageUrl="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?q=80&w=2000&auto=format&fit=crop"
         reverse
-        features={[
-          "Expert technical assembly guides",
-          "Safety and performance verification",
-          "Local engineering consultation in Kigali"
-        ]}
+        features={t('services.installation.features', { returnObjects: true }) as string[]}
       />
 
       {/* Service 3 */}
       <ServiceSection 
         icon={Headphones}
-        title="Local Technical Support & Guarantee"
-        description="Your partnership with Ruichu Solar doesn't end at delivery. We have established a robust service system providing timely and professional technical support and after-sales guarantees."
+        title={t('services.support.title')}
+        description={t('services.support.description')}
         imageUrl="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=800&q=80"
-        features={[
-          "Professional technical troubleshooting",
-          "Real-time system monitoring support",
-          "Maintenance consultations with local staff"
-        ]}
+        features={t('services.support.features', { returnObjects: true }) as string[]}
       />
 
       {/* Rwanda Biz Hub Advantage */}
@@ -119,14 +110,14 @@ const ServicesPage: React.FC = () => {
                 <Briefcase className="w-12 h-12 text-[#1A472A]" />
               </div>
               <div className="space-y-6">
-                <h2 className="text-3xl font-bold">Business Growth via Rwanda Biz Hub</h2>
+                <h2 className="text-3xl font-bold">{t('services.biz_hub.title')}</h2>
                 <p className="text-lg text-gray-300 leading-relaxed">
-                  For large-scale projects and investors, we provide integrated business support. From company registration to investment consulting, we help you navigate the Rwandan market while providing the hardware to power your growth.
+                  {t('services.biz_hub.description')}
                 </p>
                 <div className="flex flex-wrap gap-4 pt-2">
-                   <div className="px-4 py-2 border border-white/20 rounded-full text-sm font-medium">Market Analysis</div>
-                   <div className="px-4 py-2 border border-white/20 rounded-full text-sm font-medium">Regulatory Support</div>
-                   <div className="px-4 py-2 border border-white/20 rounded-full text-sm font-medium">B2B Integration</div>
+                   <div className="px-4 py-2 border border-white/20 rounded-full text-sm font-medium">{t('services.biz_hub.tags.market')}</div>
+                   <div className="px-4 py-2 border border-white/20 rounded-full text-sm font-medium">{t('services.biz_hub.tags.regulatory')}</div>
+                   <div className="px-4 py-2 border border-white/20 rounded-full text-sm font-medium">{t('services.biz_hub.tags.b2b')}</div>
                 </div>
               </div>
             </div>
@@ -138,17 +129,17 @@ const ServicesPage: React.FC = () => {
       <section className="py-24 px-6 text-center">
         <div className="max-w-4xl mx-auto space-y-8">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
-            Ready to Start Your Project?
+            {t('services.cta.title')}
           </h2>
           <p className="text-lg text-gray-600">
-            Book a meeting with our local engineering staff in Kigali to design your customized energy solution.
+            {t('services.cta.description')}
           </p>
           <div className="flex justify-center pt-4">
             <Link 
               to="/contact#inquiry-form" 
               className="bg-primary text-white px-10 py-4 rounded-sm font-bold text-base hover:bg-opacity-95 transition-all shadow-lg flex items-center gap-2 group"
             >
-              Book a Consultation
+              {t('services.cta.button')}
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>
